@@ -1,0 +1,16 @@
+{
+  "name": "image-replace",
+  "repo": "fonzie/image-replace",
+  "description": "Helpers for image replacement",
+  "author": "Anthony Short",
+  "main": "image-replace.scss",
+  "version": "0.0.1",
+  "dependencies": {},
+  "remotes": [
+    "http://fonzie.herokuapp.com/packages"
+  ],
+  "files": [
+    "image-replace.scss"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,15 @@
+%image-replace {
+  display: block;
+  text-indent: 9999em;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  text-align: left;
+  direction: ltr;
+}
+
+@mixin image-replace($img, $width, $height) {
+  @extend %image-replace;
+  height: $height;
+  width: $width;
+  background-image: url($img);
+}
