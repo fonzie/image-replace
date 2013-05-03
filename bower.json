@@ -1,6 +1,5 @@
 {
-  "name": "image-replace",
-  "repo": "fonzie/image-replace",
+  "name": "fonzie-image-replace",
   "description": "Helpers for image replacement",
   "author": "Anthony Short",
   "main": "image-replace.scss",

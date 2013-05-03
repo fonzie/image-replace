@@ -1,4 +1,4 @@
-%image-replace {
+%fz-imageReplace {
   display: block;
   text-indent: 9999em;
   overflow: hidden;
@@ -7,8 +7,8 @@
   direction: ltr;
 }
 
-@mixin image-replace($img, $width, $height) {
-  @extend %image-replace;
+@mixin fz-imageReplace($img, $width, $height) {
+  @extend %fz-imageReplace;
   height: $height;
   width: $width;
   background-image: url($img);
